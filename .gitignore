@@ -1,0 +1,33 @@
+# ==== Python cache ====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==== Jupyter ====
+.ipynb_checkpoints/
+
+# ==== Virtual environments ====
+venv/
+env/
+
+# ==== OS / editor ====
+.DS_Store
+Thumbs.db
+
+# ==== Logs ====
+*.log
+
+# ==== Modelos / artefactos grandes (opcional) ====
+*.joblib
+*.pkl
+
+# ==== Data pesada (opcional) ====
+*.csv
+*.xlsx
+*.parquet
+*.zip
+
+# ==== Configuración sensible (si existiera) ====
+*.env
+.env

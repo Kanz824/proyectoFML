@@ -1,0 +1,40 @@
+{
+  "data": {
+    "input_path": "base_de_datos.csv",
+    "clean_path": "data_limpia.csv",
+    "target_column": "target",
+    "test_size": 0.2,
+    "random_state": 42
+  },
+
+  "preprocessing": {
+    "scale_numeric": true,
+    "impute_missing": true,
+    "encode_categorical": true
+  },
+
+  "model": {
+    "type": "RandomForestClassifier",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    }
+  },
+
+  "evaluation": {
+    "metrics": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1",
+      "roc_auc"
+    ]
+  },
+
+  "output": {
+    "model_path": "modelo_rf.pkl",
+    "reports_path": "reports/"
+  }
+}

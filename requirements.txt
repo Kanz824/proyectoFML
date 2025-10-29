@@ -1,0 +1,27 @@
+# ==== Core ====
+numpy
+pandas
+
+# ==== Visualización ====
+matplotlib
+seaborn
+
+# ==== Machine Learning clásico ====
+scikit-learn
+
+# ==== Ensambles ====
+xgboost
+lightgbm
+
+# ==== Balanceo de clases ====
+imbalanced-learn
+
+# ==== Stats / Modelos estadísticos ====
+statsmodels
+scipy
+
+# ==== Persistencia de modelos ====
+joblib
+
+# ==== Notebooks ====
+jupyter
