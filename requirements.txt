@@ -2,4 +2,10 @@ pandas
 numpy
 matplotlib
 seaborn
+fastapi
+uvicorn
+pandas
+scikit-learn
+joblib
+numpy
 

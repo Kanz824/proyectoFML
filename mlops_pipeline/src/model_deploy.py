@@ -9,11 +9,11 @@ import io
 # ===============================
 # CARGA DEL MODELO Y TRANSFORMADOR
 # ===============================
-MODEL_PATH = "models/best_model.pkl"
-TRANSFORMER_PATH = "models/transformer.pkl"  # si usas ColumnTransformer guardado
+MODEL_PATH = "best_model_GradientBoosting.pkl"
+#TRANSFORMER_PATH = "models/transformer.pkl"  # si usas ColumnTransformer guardado
 
 model = joblib.load(MODEL_PATH)
-transformer = joblib.load(TRANSFORMER_PATH)
+#transformer = joblib.load(TRANSFORMER_PATH)
 
 # ===============================
 # CONFIGURACIÓN DE LA APP FASTAPI
