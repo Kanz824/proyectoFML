@@ -1,0 +1,18 @@
+Variable,Tipo,KS_Statistic,PSI,JSD,Chi2,Alerta
+Age,Numérica,0.11971830985915492,0.1166724609704157,0.05409542668706209,,🔴 Crítico
+DistanceFromHome,Numérica,0.08098591549295775,0.05296491503907268,0.05841976419609825,,🟢 Estable
+MonthlyIncome,Numérica,0.02640845070422535,0.027599762177915474,0.008720963196494694,,🟢 Estable
+NumCompaniesWorked,Numérica,0.20950704225352113,0.12887152102887164,0.1363936403219452,,🔴 Crítico
+PercentSalaryHike,Numérica,0.08626760563380281,0.2898840748788784,0.116378994259493,,🔴 Crítico
+YearsAtCompany,Numérica,0.07746478873239436,0.10248443978967563,0.025023812059371188,,🟡 Moderado
+YearsInCurrentRole,Numérica,0.13908450704225353,0.16539996613157254,0.027312779653662335,,🔴 Crítico
+YearsWithCurrManager,Numérica,0.11971830985915492,0.15784986849515817,0.026580876789660646,,🔴 Crítico
+BusinessTravel,Categórica,,,,0.0,🟢 Estable
+Department,Categórica,,,,0.0,🟢 Estable
+EducationField,Categórica,,,,0.0,🟢 Estable
+JobRole,Categórica,,,,0.0,🟢 Estable
+MaritalStatus,Categórica,,,,0.0,🟢 Estable
+OverTime,Categórica,,,,0.0,🟢 Estable
+Gender,Categórica,,,,0.0,🟢 Estable
+JobLevel,Numérica,0.2904929577464789,2.2355379747726474,0.1564169775514265,,🔴 Crítico
+Attrition,Categórica,,,,0.0,🟢 Estable

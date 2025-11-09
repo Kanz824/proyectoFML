@@ -18,6 +18,7 @@ def build_datasets(data_path, features_path, target_col):
     # --- Separar variables predictoras (X) y objetivo (y) ---
     X = df[features]
     y = df[target_col]
+    
 
     # --- Dividir datos en entrenamiento y prueba ---
     X_train, X_test, y_train, y_test = train_test_split(
