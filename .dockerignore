@@ -1,0 +1,23 @@
+# Ignorar cachés y archivos temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de entorno o configuraciones locales
+.env
+.vscode/
+.idea/
+
+# Git
+.git
+.gitignore
+
+# Datos crudos y notebooks
+data/raw/
+notebooks/
+*.ipynb
+
+# Archivos grandes o no necesarios
+*.db
+*.log
