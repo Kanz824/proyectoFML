@@ -105,3 +105,6 @@ Este proyecto demuestra cómo una correcta aplicación de prácticas MLOps mejor
 Juan Manuel García Puerta
 Proyecto académico desarrollado en el marco de la asignatura de Machine Learning y MLOps.
 Facultad de Ingeniería de Sistemas.
+
+SonarCloud
+<img width="1914" height="924" alt="image" src="https://github.com/user-attachments/assets/d23f3799-367a-41cc-a59e-7b7334c6141e" />
